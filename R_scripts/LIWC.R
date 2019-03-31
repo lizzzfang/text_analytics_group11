@@ -25,3 +25,4 @@ class(imdb_corp)
 # LIWC Application
 imdb_liwc<-dfm(imdb_corp, dictionary=liwcdict)
 View(imdb_liwc)
+write.csv(imdb_liwc,file = "C:/Users/Nicky/Documents/Text Analytics/Group Assignment/TAGit/R_scripts/temp.csv", sep = ',')
